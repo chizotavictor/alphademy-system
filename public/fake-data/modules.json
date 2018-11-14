@@ -1,0 +1,36 @@
+{
+text: '.',
+children: [
+        {
+            text:'Academics',
+            expanded: true,
+            children:[{
+                text:'Student Information',
+                id:'absolute',
+                leaf:true
+            },{
+                text:'Reporting Manager',
+                id:'accordion',
+                leaf:true
+            }]
+        },{
+            text:'Admission Manager',
+            children:[{
+                text:'Admission Settings',
+                id:'center',
+                leaf:true
+            }]
+        },{
+            text:'System Settings',
+            children:[{
+                text:'Company Setup & Configurations',
+                id:'abs-form',
+                leaf:true
+            },{
+                text:'User Account Settings',
+                id:'tabs-nested-layouts',
+                leaf:true
+            }]
+        }
+    ]
+}
